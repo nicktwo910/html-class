@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    font-size: 35px; 
+    background-color: #000000;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    box-shadow: 0px 1px 2px;
+    z-index: 3;
+}
+
+nav {
+    background-color: #040404;
+}
+
+main {
+    background-color: #040404;
+}
+
+aside {
+    background-color: #040404;
+}
+
+footer {
+    background-color: #000000;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    box-shadow: 0px -1px 2px;
+    z-index: 3;
+}
